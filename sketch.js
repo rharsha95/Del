@@ -7,7 +7,6 @@ function preload() {
 
 function setup() {
   createCanvas(1000,500);
-  database = firebase.database();
   system = new System()
   security = new Security()
 }
